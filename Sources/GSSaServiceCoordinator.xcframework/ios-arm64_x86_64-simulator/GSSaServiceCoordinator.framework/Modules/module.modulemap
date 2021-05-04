@@ -1,0 +1,11 @@
+framework module GSSaServiceCoordinator {
+  umbrella header "GSSaServiceCoordinator.h"
+
+  export *
+  module * { export * }
+}
+
+module GSSaServiceCoordinator.Swift {
+    header "GSSaServiceCoordinator-Swift.h"
+    requires objc
+}
